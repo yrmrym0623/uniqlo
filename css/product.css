@@ -107,7 +107,7 @@ a .subLink__txt {
 
 .sectionHr {
   height: 12px;
-  background-color: rgba(0, 0, 0, 0.16);
+  background-color: rgba(0, 0, 0, 0.06);
 }
 
 .Gallery__wrap {
@@ -709,15 +709,119 @@ header .header__list:nth-child(even) li {
 #categoryLink .categoryLink__wrap {
   display: flex;
   justify-content: space-between;
-  background-color:  rgba(0, 0, 0, 0.16);
+  background-color:  rgba(0, 0, 0, 0.06);
+}
+
+#categoryLink .categoryLink__wrap a {
+  display: block;
+  width: 24%;
+  height: 100%;
+  color: #000;
 }
 
 #categoryLink .categoryLink__item {
-  width: 24%;
-  height: 100%;
+  display: block;
   padding: 32px 0;
   background-color: #fff;
   text-align: center;
   font-weight: bold;
   font-size: 20px;
+}
+
+/*footer*/
+footer {
+  padding: 20px 16px 80px;
+}
+
+.footer__wrap {
+  padding: 12px 0;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.14);
+}
+
+.footer__item {
+  padding: 16px 0;
+  color: #000;
+  font-size: 12px;
+}
+
+.footer__snsWrap {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 0;
+}
+
+.footer__snsWrap a {
+  display: block;
+  height: 28px;
+  width: 28px;
+  margin-right: 16px;
+}
+
+.footer__snsItem {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-right: 20px;
+}
+
+.footer__txt {
+  border: 0;
+  clip: rect(1px 1px 1px 1px);
+  height: 0;
+  margin: 0;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 0;
+}
+
+.footer__snsItem--facebook {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url('../image/facebook.png') no-repeat 0 0;
+  background-size: contain;
+}
+
+.footer__snsItem--twitter {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url('../image/twitter.png') no-repeat 0 0;
+  background-size: contain;
+}
+
+.footer__snsItem--instagram {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url('../image/instagram.png') no-repeat 0 0;
+  background-size: contain;
+}
+
+.footer__snsItem--youtube {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background: url('../image/youtube.png') no-repeat 0 0;
+  background-size: contain;
+}
+
+.footer__wrap.footer__wrap--onlineStore {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 0 36px;
+  border-bottom: none;
+}
+
+.footer__wrap--onlineStore .footer__item {
+  display: inline-block;
+  height: 28px;
+  padding: 0;
+}
+
+.footer__wrap--onlineStore img {
+  display: block;
 }
