@@ -439,12 +439,12 @@ header .header__list:nth-child(even) li {
 
 .selected__size {
   margin-left: 6px;
-  line-height: 18px;
+  line-height: 14px;
 }
 
 .selected__amount {
   margin-left: 6px;
-  line-height: 18px;
+  line-height: 14px;
 }
 
 .selected__price {
