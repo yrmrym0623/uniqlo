@@ -110,6 +110,10 @@ a .subLink__txt {
   -webkit-overflow-scrolling: touch;
 }
 
+.Gallery__wrap ::-webkit-scrollbar {
+  display:none;
+}
+
 .Gallery__item {
   display: inline-block;
   vertical-align: top;
