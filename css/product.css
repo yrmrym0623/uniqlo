@@ -430,8 +430,8 @@ header .header__list:nth-child(even) li {
 }
 
 .selected__color {
-  width: 12px;
-  height: 12px;
+  width: 14px;
+  height: 14px;
   border-radius: 50%;
   background: url('https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/432732/chip/goods_32_432732_chip.jpg') no-repeat 0 0;
   background-size: cover;
@@ -526,8 +526,17 @@ header .header__list:nth-child(even) li {
 
 /*about*/
 
-#about h2 {
+#about .about__titleArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
   margin-bottom: 20px;
+}
+
+#about .productNum {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 #about .subLink {
@@ -540,6 +549,19 @@ header .header__list:nth-child(even) li {
 
 
 /*review*/
+
+#review .review__titleArea {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+#review .review__date {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
 
 #review .review__wrap {
   margin-top: 8px;
@@ -583,6 +605,7 @@ header .header__list:nth-child(even) li {
   height: 10px;
   background: url('../image')
 }
+
 /*style*/
 
 #style h2 {
@@ -619,8 +642,45 @@ header .header__list:nth-child(even) li {
 /*feature*/
 
 #feature.subSection {
+  padding: 0;
   border-bottom: none;
 }
+
+#feature .feature__wrap {
+  display: flex;
+  padding: 16px;
+}
+
+#feature .feature__imgArea {
+  width: 110px;
+  height: 110px;
+  background: url('../image/feature_img.jpg') no-repeat 0 0;
+  background-size: 110px 110px;
+}
+
+#feature .feature__txtArea {
+  margin-left: 12px;
+}
+
+#feature .feature__txtArea span {
+  display: block;
+}
+
+.feature__head {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.feature__title {
+  margin-top: 12px;
+  font-weight: bold;
+  color: #000;
+}
+
+.feature__description {
+  color: #000;
+}
+
+
 
 
 /*recommend*/
