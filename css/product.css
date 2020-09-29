@@ -82,6 +82,11 @@ h3 {
   font-weight: bold;
 }
 
+.btnArea a {
+  display: block;
+  color: #000;
+}
+
 .btn__default {
   height: 44px;
   border: 1px solid #000;
@@ -116,7 +121,7 @@ a .subLink__txt {
   -webkit-overflow-scrolling: touch;
 }
 
-.Gallery__wrap ::-webkit-scrollbar {
+.Gallery__wrap::-webkit-scrollbar {
   display:none;
 }
 
@@ -434,10 +439,12 @@ header .header__list:nth-child(even) li {
 
 .selected__size {
   margin-left: 6px;
+  line-height: 18px;
 }
 
 .selected__amount {
   margin-left: 6px;
+  line-height: 18px;
 }
 
 .selected__price {
@@ -467,6 +474,16 @@ header .header__list:nth-child(even) li {
 
 
 /*topInformation*/
+
+#topInformation .titleArea {
+  display: flex;
+  align-items: flex-end;
+}
+
+#topInformation .titleArea a {
+  display: block;
+}
+
 
 #topInformation .btnArea {
   display: flex;
@@ -577,7 +594,12 @@ header .header__list:nth-child(even) li {
   width: 153px;
   height: 200px;
   margin-right: 4px;
-  background-color: #000;
+}
+
+#style .Gallery__item img {
+  display: block;
+  width: 153px;
+  height: 200px;
 }
 
 #style .Gallery__item .btn__like,
@@ -625,6 +647,12 @@ header .header__list:nth-child(even) li {
   width: 150px;
   height: 150px;
   background: #000;
+}
+
+#recommend .Gallery__item .imgArea img {
+  display: block;
+  width: 150px;
+  height: 150px;
 }
 
 #recommend .Gallery__wrap .color__wrap {
